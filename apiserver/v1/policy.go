@@ -1,10 +1,14 @@
+// Copyright 2025 Robin Liu <robinliu27@163.com>. All rights reserved.
+// Use of this source code is governed by a MIT style
+// license that can be found in the LICENSE file.
+
 package v1
 
 import (
-	"encoding/json"
 	"fmt"
 
 	"github.com/ory/ladon"
+	"github.com/robinlg/iamlib/pkg/json"
 	metav1 "github.com/robinlg/iamlib/pkg/meta/v1"
 	"github.com/robinlg/iamlib/pkg/util/idutil"
 	"gorm.io/gorm"
