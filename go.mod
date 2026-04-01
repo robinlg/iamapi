@@ -4,7 +4,7 @@ go 1.25
 
 require (
 	github.com/ory/ladon v1.2.0
-	github.com/robinlg/iamlib v0.0.0-20260401071054-bc3b3a391310
+	github.com/robinlg/iamlib v0.0.0-20260401021528-ef10f148ff77
 	gorm.io/gorm v1.31.1
 )
 
