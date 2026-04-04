@@ -1,37 +1,42 @@
 module github.com/robinlg/iamapi
 
-go 1.25
+go 1.25.0
 
 require (
-	github.com/ory/ladon v1.3.0
-	github.com/robinlg/iamlib v0.0.0-20260404031414-d8a666bb4b5d
-	google.golang.org/grpc v1.40.0
-	google.golang.org/protobuf v1.36.11
+	github.com/ory/ladon v1.2.0
+	github.com/robinlg/iamlib v0.0.0-20260404040643-b74e62ed0bf8
+	google.golang.org/grpc v1.36.0
+	google.golang.org/protobuf v1.27.1
 	gorm.io/gorm v1.22.4
 )
 
 require (
+	github.com/davecgh/go-spew v1.1.1 // indirect
 	github.com/dgrijalva/jwt-go v3.2.0+incompatible // indirect
 	github.com/dlclark/regexp2 v1.2.0 // indirect
-	github.com/gabriel-vasile/mimetype v1.4.8 // indirect
-	github.com/go-playground/locales v0.14.1 // indirect
-	github.com/go-playground/universal-translator v0.18.1 // indirect
-	github.com/go-playground/validator/v10 v10.27.0 // indirect
-	github.com/golang/protobuf v1.5.2 // indirect
-	github.com/hashicorp/golang-lru v0.5.4 // indirect
+	github.com/go-playground/locales v0.13.0 // indirect
+	github.com/go-playground/universal-translator v0.17.0 // indirect
+	github.com/go-playground/validator/v10 v10.4.1 // indirect
+	github.com/golang/protobuf v1.5.0 // indirect
+	github.com/google/uuid v1.1.2 // indirect
+	github.com/hashicorp/golang-lru v0.5.0 // indirect
 	github.com/jinzhu/inflection v1.0.0 // indirect
-	github.com/jinzhu/now v1.1.5 // indirect
-	github.com/json-iterator/go v1.1.12 // indirect
-	github.com/leodido/go-urn v1.4.0 // indirect
-	github.com/modern-go/concurrent v0.0.0-20180306012644-bacd9c7ef1dd // indirect
-	github.com/modern-go/reflect2 v1.0.2 // indirect
-	github.com/pkg/errors v0.9.1 // indirect
+	github.com/jinzhu/now v1.1.3 // indirect
+	github.com/json-iterator/go v1.1.10 // indirect
+	github.com/leodido/go-urn v1.2.0 // indirect
+	github.com/modern-go/concurrent v0.0.0-20180228061459-e0a39a4cb421 // indirect
+	github.com/modern-go/reflect2 v0.0.0-20180701023420-4b7aa43c6742 // indirect
+	github.com/pborman/uuid v1.2.0 // indirect
+	github.com/pkg/errors v0.8.0 // indirect
+	github.com/pmezard/go-difflib v1.0.0 // indirect
 	github.com/robinlg/iamerrors v0.0.0-20260327071612-31ded963321e // indirect
 	github.com/sony/sonyflake v1.0.0 // indirect
 	github.com/speps/go-hashids v2.0.0+incompatible // indirect
-	golang.org/x/crypto v0.47.0 // indirect
-	golang.org/x/net v0.49.0 // indirect
-	golang.org/x/sys v0.40.0 // indirect
-	golang.org/x/text v0.33.0 // indirect
-	google.golang.org/genproto v0.0.0-20210828152312-66f60bf46e71 // indirect
+	github.com/stretchr/testify v1.11.1 // indirect
+	golang.org/x/crypto v0.0.0-20210322153248-0c34fe9e7dc2 // indirect
+	golang.org/x/net v0.0.0-20210226172049-e18ecbb05110 // indirect
+	golang.org/x/sys v0.42.0 // indirect
+	golang.org/x/text v0.3.3 // indirect
+	google.golang.org/genproto v0.0.0-20200526211855-cb27e3aa2013 // indirect
+	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
